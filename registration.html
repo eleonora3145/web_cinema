@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--<header>-->
+<!--    <h1>Реєстрація</h1>-->
+<!--</header>-->
+<nav class="topnav">
+    <a href="main.html">Головна</a>
+    <a href="shedule.html">Розклад</a>
+    <a href="contacts.html">Контакти</a>
+    <a href="sign_in.html">Кабінет</a>
+</nav>
+<nav class="register-container">
+    <nav class="title">Реєстрація</nav>
+    <form class="login-form">
+        <label for="username">Логін:</label>
+        <input type="text" id="username" name="username" placeholder="Введіть логін" required>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" placeholder="Введіть пароль" required>
+        <label for="password">Підтвердіть пароль:</label>
+        <input type="password" id="password_confirm" name="password" placeholder="Підтвердіть пароль" required>
+        <label for="role">Роль:</label>
+        <select id="role" name="role" required>
+            <option value="admin">Admin</option>
+            <option value="regular">Regular</option>
+        </select>
+        <button type="submit">Зареєструватись</button>
+    </form>
+</nav>
+
+<footer>
+</footer>
+</body>
+</html>
